@@ -88,8 +88,5 @@
      tags: test
      uri:
        url: http://3.15.14.82/:8080
-     register: result
-     until: "result.status == 200"
-     retries: 5
-     delay: 10
+    
      
